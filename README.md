@@ -12,28 +12,6 @@ Full formatted tables and details (including original layout):
 
 ## Key Tables
 
-### Table 3: Workload Model Parameters for LDDL Facilities
-
-| Parameter                      | LDDL1 (Bus 9) AI Inference | LDDL2 (Bus 36) ML Training | LDDL3 (Bus 37) Batch Jobs |
-|--------------------------------|----------------------------|----------------------------|---------------------------|
-| Rated capacity (MW)            | 57.5                       | 51.7                       | 46.0                      |
-| Number of racks N              | 500                        | 450                        | 400                       |
-| Servers per rack M             | 40                         | 40                         | 40                        |
-| Idle power P<sub>idle</sub> (kW/server) | 0.15                  | 0.15                       | 0.15                      |
-| Peak power P<sub>peak</sub> (kW/server) | 0.50                  | 0.50                       | 0.50                      |
-| Poisson arrival rate η (jobs/s)| 12.0                       | —                          | —                         |
-| Job duration γ (s)             | 0.08                       | —                          | —                         |
-| Job duration spread γ<sub>1</sub> (s) | 0.02                | —                          | —                         |
-| Training epoch period (s)      | —                          | 1.5                        | —                         |
-| Epoch amplitude (LF variation) | —                          | 0.15                       | —                         |
-| Batch step interval (s)        | —                          | —                          | 0.8                       |
-| Batch step size (LF change)    | —                          | —                          | 0.10                      |
-| Cooling ratio α<sub>1</sub>    | 0.15                       | 0.15                       | 0.15                      |
-| Cooling response rate α<sub>2</sub> | 0.05                  | 0.05                       | 0.05                      |
-| Power supply time const τ<sub>s</sub> (s) | 0.01             | 0.01                       | 0.01                      |
-| Mean load factor (pu)          | 0.775                      | 0.829                      | 0.840                     |
-| Std. dev. load factor (pu)     | 0.107                      | 0.103                      | 0.090                     |
-
 ### Table 1: IEEE 68-Bus System Configuration and Simulation Parameters
 
 | Parameter                          | Value          | Unit    |
@@ -70,6 +48,29 @@ Full formatted tables and details (including original layout):
 | Exciter (EXC)             | 0.0342        | —                      | 0.0            |
 
 **Total system inertia:** H<sub>total</sub> = 2.894 s
+
+### Table 3: Workload Model Parameters for LDDL Facilities
+
+| Parameter                      | LDDL1 (Bus 9) AI Inference | LDDL2 (Bus 36) ML Training | LDDL3 (Bus 37) Batch Jobs |
+|--------------------------------|----------------------------|----------------------------|---------------------------|
+| Rated capacity (MW)            | 57.5                       | 51.7                       | 46.0                      |
+| Number of racks N              | 500                        | 450                        | 400                       |
+| Servers per rack M             | 40                         | 40                         | 40                        |
+| Idle power P<sub>idle</sub> (kW/server) | 0.15                  | 0.15                       | 0.15                      |
+| Peak power P<sub>peak</sub> (kW/server) | 0.50                  | 0.50                       | 0.50                      |
+| Poisson arrival rate η (jobs/s)| 12.0                       | —                          | —                         |
+| Job duration γ (s)             | 0.08                       | —                          | —                         |
+| Job duration spread γ<sub>1</sub> (s) | 0.02                | —                          | —                         |
+| Training epoch period (s)      | —                          | 1.5                        | —                         |
+| Epoch amplitude (LF variation) | —                          | 0.15                       | —                         |
+| Batch step interval (s)        | —                          | —                          | 0.8                       |
+| Batch step size (LF change)    | —                          | —                          | 0.10                      |
+| Cooling ratio α<sub>1</sub>    | 0.15                       | 0.15                       | 0.15                      |
+| Cooling response rate α<sub>2</sub> | 0.05                  | 0.05                       | 0.05                      |
+| Power supply time const τ<sub>s</sub> (s) | 0.01             | 0.01                       | 0.01                      |
+| Mean load factor (pu)          | 0.775                      | 0.829                      | 0.840                     |
+| Std. dev. load factor (pu)     | 0.107                      | 0.103                      | 0.090                     |
+
 
 ## Citation
 
